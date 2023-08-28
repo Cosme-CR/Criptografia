@@ -38,8 +38,8 @@ string transposicaoDecriptografar(string texto) {
     return texto;
 }
 
-int main() {
-    int opcao;
+void Menu(){
+	int opcao;
     string texto;
 
     do {
@@ -79,6 +79,13 @@ int main() {
     } while (opcao != 5);
 
     cout << "Programa encerrado.\n";
+	
+}
+
+int main() {
+   setlocale(LC_ALL, "Portuguese");
+   Menu();
+   
     return 0;
 }
 

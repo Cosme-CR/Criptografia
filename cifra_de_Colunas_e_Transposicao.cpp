@@ -103,7 +103,7 @@ void transposicaoCriptografar(int chave, char mensagem[]) {
             std::cout << matriz[coluna][linha];
         }
     }
-    std::cout << std::endl;
+    cout << endl;
 }
 
 void transposicaoDecriptografar(int chave, char mensagem[]) {
@@ -121,10 +121,10 @@ void transposicaoDecriptografar(int chave, char mensagem[]) {
 
     for (int coluna = 0; coluna < colunas; ++coluna) {
         for (int linha = 0; linha < chave; ++linha) {
-            std::cout << matriz[linha][coluna];
+            cout << matriz[linha][coluna];
         }
     }
-    std::cout << std::endl;
+    cout << endl;
 }
 void Menu() {
     int loop;
